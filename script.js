@@ -71,21 +71,17 @@ function calculate() {
 
     if (operate === '+') {
         previousValue += currentValue;
-        // currentValue = previousValue;
     }
     else if (operate === '-') {
         previousValue -= currentValue;
-        // currentValue = previousValue;
     }
     else if (operate === '*') {
         previousValue *= currentValue;
-        // currentValue = previousValue;
     }
     else if (operate === '/') {
         previousValue /= currentValue;
-        // currentValue = previousValue;
     }
-    // console.log(previousValue)
+
     previousValue = roundNumber(previousValue)
     previousValue = previousValue.toString();
     currentValue = previousValue.toString();
